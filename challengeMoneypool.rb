@@ -20,7 +20,6 @@ def set_speaker_hash(speakers)
 	return speaker_hash
 end
 
-
 def count_lines(speaker_hash,speeches)
 	speeches.each do |speech|
 		#Grabs all the lines that speech tag has itself
